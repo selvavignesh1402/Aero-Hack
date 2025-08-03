@@ -1,4 +1,4 @@
-# Eclipse settings
+# Eclipse-specific files
 .project
 .classpath
 .settings/
@@ -6,9 +6,10 @@
 # Compiled class files
 *.class
 
-# Java build output
+# Build output directories
 bin/
 build/
+target/
 
 # Logs
 *.log
@@ -17,18 +18,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Maven
-target/
-*.jar
-*.war
-*.ear
-
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
-
-# IntelliJ IDEA (in case you or teammates use it)
+# IntelliJ IDEA
 .idea/
 *.iml
 out/
@@ -36,15 +26,23 @@ out/
 # VS Code
 .vscode/
 
-# Others
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+
+# Temporary files
 *.swp
 *.bak
 *.tmp
 *.old
 
-# Ignore test result files
+# Test artifacts
 *.test
 *.coverage
 
-# Git ignore override (if needed)
+# Don't ignore .gitignore
 !.gitignore
