@@ -1,0 +1,50 @@
+# Eclipse settings
+.project
+.classpath
+.settings/
+
+# Compiled class files
+*.class
+
+# Java build output
+bin/
+build/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA (in case you or teammates use it)
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Ignore test result files
+*.test
+*.coverage
+
+# Git ignore override (if needed)
+!.gitignore
